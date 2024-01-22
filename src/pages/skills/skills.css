@@ -1,14 +1,13 @@
 .skills_image {
-  height: 200px;
+  height: 100px;
   width: auto;
   margin-bottom: 20px;
 }
 #skills {
-  background-image: url("skillsbackground.jpg");
+  background-color: #333;
 }
 .skillcard {
   border: 3px solid yellow;
-  /* background-color: aliceblue; */
   backdrop-filter: blur(4px);
   display: flex;
   align-items: center;
@@ -16,6 +15,8 @@
   flex-direction: column;
   border-radius: 10px;
   padding: 20px;
+  flex-grow: 1;
+  box-shadow: 2px 16px 24px black;
 }
 .skillcard:hover {
   border: 3px solid white;
@@ -35,6 +36,8 @@
   color: yellow;
   font-size: xx-large;
   margin: 0;
+  text-shadow: 2px 3px 2px red;
+
   padding-top: 10px;
 }
 @media screen and (max-width: 768px) {

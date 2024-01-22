@@ -7,6 +7,7 @@ div a {
 .icon4 {
   font-size: 40px;
   border-radius: 10px;
+  box-shadow: 2px 2px 24px rgb(245, 237, 237);
 }
 
 .icon1 {
@@ -24,6 +25,8 @@ div a {
 .social_icons {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
 }
 @media screen and (max-width: 768px) {
   .icons {
@@ -38,4 +41,7 @@ div a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.flex-icon-text h5 {
+  color: white;
 }

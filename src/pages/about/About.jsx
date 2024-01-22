@@ -13,7 +13,7 @@ export const About = () => {
             <h1>TECHNICAL </h1>
             <p className="para">I,m Vikash. A Front-End Web Developer</p>
 
-            <div className="d-grid  d-grid gap-2 d-md-blockcol-6">
+            <div className="d-grid  d-grid gap-2 d-md-blockcol-6 ">
               <button className="btn btn-warning " type="button">
                 {" "}
                 <a

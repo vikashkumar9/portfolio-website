@@ -4,6 +4,7 @@
   padding: 30px 10px;
 
   text-align: center;
+  box-shadow: inset 0 0 10px #131313;
 }
 .ph_email {
   font-size: x-large;
@@ -22,6 +23,7 @@
 .contact_header {
   text-align: center;
   color: yellow;
+  text-shadow: 2px 3px 2px red;
 }
 .flex_conatiner {
   display: flex;

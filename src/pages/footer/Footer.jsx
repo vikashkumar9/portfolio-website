@@ -49,6 +49,7 @@ export const Footer = () => {
           <SocialMedia />
         </div>
       </div>
+      © 2024
     </div>
   );
 };
